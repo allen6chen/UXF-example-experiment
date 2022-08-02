@@ -15,10 +15,10 @@ namespace UXFtutorial
             Block task1 = session.CreateBlock(session.settings.GetInt("block1_numtrials"));
 
             //generate a delay to continue next move after calibrate
-            foreach (var trial in task1.trials)
-            {
-                trial.settings.SetValue("delay", Random.Range(0.5f,5.0f));
-            }
+            //foreach (var trial in task1.trials)
+            //{
+            //    trial.settings.SetValue("delay", Random.Range(0.5f,5.0f));
+            //}
         }
 
     }

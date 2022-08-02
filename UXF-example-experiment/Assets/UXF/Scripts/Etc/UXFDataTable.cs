@@ -19,7 +19,7 @@ namespace UXF
         /// </summary>
         /// <param name="capacity"></param>
         /// <param name="columnNames"></param>
-        public UXFDataTable(int capacity, params string[] columnNames)
+        public UXFDataTable(int capacity, string[] columnNames)
         {
             dict = new Dictionary<string, List<object>>();
             foreach (string colName in columnNames)
